@@ -9,14 +9,16 @@
     export let data
     console.log(data)
 </script>
-<div class="flex flex-col w-full justify-center items-center relative bg-gray-100 overflow-x-hidden">
+<div class="flex flex-col min-h-[100dvh]">
 
     <Navigation>
         <NavigationItems user={data.user} authenticated={data.isAuthenticatedUser} hasCustomerSession={data.hasCustomerSession} />
     </Navigation>
-    <Hero />
-    <Features />
-    <Team />
+    <main class="flex-1">
+        <Hero />
+        <Features />
+        <Team />
+    </main>
     <Footer />
 
 </div>
