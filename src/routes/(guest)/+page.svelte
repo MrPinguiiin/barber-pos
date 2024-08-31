@@ -7,7 +7,7 @@
 	import Team from '$lib/components/pages/home/Team.svelte';
     export let data
 </script>
-<div class="flex flex-col min-h-[100dvh]">
+<div class="flex flex-col min-h-[100dvh] w-full">
 
     <Navigation>
         <NavigationItems user={data.user} authenticated={data.isAuthenticatedUser} hasCustomerSession={data.hasCustomerSession} />

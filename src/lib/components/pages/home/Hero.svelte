@@ -1,4 +1,4 @@
-<section class="w-full py-12 md:py-24 lg:py-26">
+<section class="w-full py-12 md:py-24 lg:py-32">
     <div class="container grid gap-4 px-4 md:px-6 lg:grid-cols-2 lg:gap-12">
       <img
         src="/assets/img/pplanding.webp"

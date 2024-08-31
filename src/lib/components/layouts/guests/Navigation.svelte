@@ -4,12 +4,11 @@
 </script>
 
 <!-- ========== HEADER ========== -->
-<header class="px-4 lg:px-6 h-14 flex items-center">
+<header class="h-14 flex items-center bg-black">
   <a href="/" class="flex items-center justify-center">
-    <span class="sr-only text-xl">Barber's Delight</span>
+    <!-- <span class="sr-only text-4 text-white">Barber's Delight</span> -->
   </a>
-  <nav class="ml-auto flex gap-4 sm:gap-6">
-
+  <nav class="px-2 lg:px-6 ml-auto flex gap-4 sm:gap-6">
     
     <div class="hidden sm:block">
       <slot />

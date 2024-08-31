@@ -17,7 +17,6 @@
               height="200"
               alt="Barber 1"
               class="rounded-full w-24 h-24 object-cover"
-              style={{ aspectRatio: "200/200", objectFit: "cover" }}
             />
             <div class="text-lg font-bold">John Doe</div>
             <div class="text-muted-foreground">Master Barber</div>
@@ -29,7 +28,6 @@
               height="200"
               alt="Barber 2"
               class="rounded-full w-24 h-24 object-cover"
-              style={{ aspectRatio: "200/200", objectFit: "cover" }}
             />
             <div class="text-lg font-bold">Jane Smith</div>
             <div class="text-muted-foreground">Senior Barber</div>
@@ -41,7 +39,6 @@
               height="200"
               alt="Barber 3"
               class="rounded-full w-24 h-24 object-cover"
-              style={{ aspectRatio: "200/200", objectFit: "cover" }}
             />
             <div class="text-lg font-bold">Michael Johnson</div>
             <div class="text-muted-foreground">Barber</div>
